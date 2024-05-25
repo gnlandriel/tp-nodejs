@@ -58,3 +58,54 @@ body {
 .header .nav-list li a:hover {
   color: beige;
 }
+
+h1{
+  justify-content: center;
+  display: flex;
+}
+
+/*Productos*/
+.productos{
+  width: 980px;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
+.productos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.productos li:hover{
+  border-color: #c78a19;
+}
+
+.productos li:active{
+  border-color: #088c19;
+}
+
+.productos h2{
+  font-size: 700;
+  font-weight: bold;
+}
+
+.productos li:hover h2{
+  font-size: 31px;
+}
+
+.producto-descripcion{
+  font-size: 18px;
+}
+
+.producto-precio{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
